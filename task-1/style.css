@@ -1,0 +1,94 @@
+.dlsp-bg-gray-primary {
+    background-color: #232b34;
+}
+.dlsp-bg-gray-secondaty {
+    background-color: #1a212b;
+}
+.dlsp-bg-gray-tertiary {
+    background-color: #30373f;
+}
+.dlsp-bg-green-primary {
+    background-color: #20d46b;
+}
+
+.dlsp-text-color-primary {
+    color: white;
+}
+.dlsp-text-color-secondary {
+    color: #799098;
+}
+
+.dlsp-text-size-p7 {
+    font-size: 0.7rem;
+}
+.dlsp-text-size-p8 {
+    font-size: 0.8rem;
+}
+.dlsp-text-size-p9 {
+    font-size: 0.9rem;
+}
+.dlsp-text-size-1p1 {
+    font-size: 1.1rem;
+}
+.dlsp-mh-13 {
+    min-height: 13rem;
+}
+
+.dlsp-left-offset-1 {
+    left: 1rem;
+}
+
+.dlsp-border-radius-1 {
+    border-radius: 1rem;
+}
+
+.dlsp-d-block-content > * {
+    display: block;
+}
+
+.dlsp-no-overflow {
+    overflow: hidden;
+}
+
+.dlsp-no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.dlsp-no-scrollbar {
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.dlsp-small-card {
+    position: relative;
+    margin-right: 0.5rem;
+}
+.dlsp-small-card:hover {
+    opacity: 0.7;
+}
+.dlsp-small-card-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+}
+.dlsp-small-card-icon img {
+    margin: auto;
+}
+.dlsp-small-card-info {
+    margin-top: 0.75rem;
+    text-align: center;
+    /* word-break: break-all; */
+}
+
+.dlsp-social-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+/*questionable overrides*/
+a {
+    color: inherit;
+}
+.btn:hover {
+    color: #e6e6e6;
+}

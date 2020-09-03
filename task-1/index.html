@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="dlsp-bg-gray-primary">
+
+    <div id="main-header" class="dlsp-bg-gray-secondaty">
+        <div class="container">
+            <div id="header-container" class="row align-items-center py-4">
+                <div class="col">
+                    <div class="float-left">
+                        <a href="#">
+                            <img src="./imgs/logo.png" alt="logo" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="float-right">
+                        <div id="language-select-container" class="dropdown w-50 dlsp-bg-gray-secondaty">
+                            <a class="btn dropdown-toggle rounded-pill border border-dark dlsp-text-color-secondary"
+                                href="#" role="button" id="language-select" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                English
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="language-select">
+                                <a class="dropdown-item dlsp-text-color-secondary" href="#">Español</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="content-header" class="container my-4">
+        <div class="row">
+            <div class="col ml-2">
+                <div class="row float-left w-100 dlsp-text-size-p8 dlsp-text-color-secondary">
+                    <div class="col-4 border-right border-dark">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="./imgs/team-icon.png" alt="team-icon" />
+                            </div>
+                            <div class="col-8">
+                                <a href="#">
+                                    Main Club Partner
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 border-right border-dark">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="./imgs/team-icon.png" alt="team-icon" />
+                            </div>
+                            <div class="col-8">
+                                <a href="#">
+                                    Official Shirt Sponsor
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="float-right">
+                    <div class="row">
+                        <div class="col">
+                            <button
+                                class="btn rounded-pill px-5 py-2 font-weight-bold dlsp-text-color-secondary dlsp-bg-gray-tertiary dlsp-text-size-1p1">
+                                Sign In
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button
+                                class="btn rounded-pill px-5 py-2 font-weight-bold dlsp-text-color-primary dlsp-bg-green-primary dlsp-text-size-1p1">
+                                Register
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bet-categories" class="container my-4">
+        <div class="card-deck">
+            <div class="card border-0 dlsp-border-radius-1 dlsp-no-overflow">
+                <img src="./imgs/sports.jpg" alt="sports" class="card-img h-100" />
+                <div class=" card-img-overlay col-6 d-flex flex-column justify-content-between py-5 px-4">
+                    <h5 class="card-title text-uppercase font-weight-bold dlsp-text-color-primary">
+                        Sports
+                    </h5>
+                    <div class="dlsp-text-size-p9 dlsp-text-color-secondary">
+                        Price Boost every day on all sports
+                    </div>
+                    <button
+                        class="btn rounded-pill font-weight-bold mr-5 dlsp-text-color-primary dlsp-bg-green-primary">
+                        Go to Sports
+                    </button>
+                </div>
+            </div>
+            <div class="card border-0 dlsp-border-radius-1 dlsp-no-overflow">
+                <img src="./imgs/casino.jpg" alt="sports" class="card-img h-100" />
+                <div class=" card-img-overlay col-6 d-flex flex-column justify-content-between py-5 px-4">
+                    <h5 class="card-title text-uppercase font-weight-bold dlsp-text-color-primary">
+                        Casino
+                    </h5>
+                    <div class="dlsp-text-size-p9 dlsp-text-color-secondary">
+                        Offering the best slots and live dealer games
+                    </div>
+                    <button
+                        class="btn rounded-pill font-weight-bold mr-5 dlsp-text-color-primary dlsp-bg-green-primary">
+                        Go to Casino
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sports-categoies" class="container my-4">
+        <h5 class="dlsp-text-color-primary mb-3">Sports Categories</h5>
+        <div class="container-fluid px-0 dlsp-no-scrollbar">
+            <div class="d-flex flex-row flex-nowrap dlsp-text-color-secondary dlsp-text-size-p7">
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Soccer</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball linebreaker</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball on three lines?</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">a</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">!?!</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball</a>
+                    </div>
+                </div>
+                <div class="dlsp-small-card">
+                    <div class="dlsp-small-card-icon dlsp-bg-gray-secondaty dlsp-border-radius-1">
+                        <img src="./imgs/sport-icon.jpg" alt="category-icon">
+                    </div>
+                    <div class="dlsp-small-card-info">
+                        <a href="#" class="stretched-link">Baseball</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="promotions" class="container my-4">
+        <h5 class="mb-3 dlsp-text-color-primary">Existing promotions start here</h5>
+        <div class="card-deck dlsp-mh-13">
+            <div class="card border-0 dlsp-border-radius-1 dlsp-bg-gray-secondaty dlsp-no-overflow">
+                <div class="row no-gutters h-100">
+                    <div class="col-6">
+                        <div class="card-body d-flex flex-column justify-content-center mx-2 h-100">
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="dlsp-text-color-primary">NBA Fantasy Guaranteed Prize Pool & Free
+                                    Bet</a>
+                            </h5>
+                            <div class="dlsp-text-size-p9 dlsp-text-color-secondary">Put in your Fantasy Team
+                                and recieve a free Sports Bet</div>
+                        </div>
+                    </div>
+                    <div class="col-6 position-relative">
+                        <!-- <i data-feather="star" class="position-absolute"></i> -->
+                        <img src="./imgs/bookmark-star-fill.svg" alt="" width="24" height="24"
+                            class="position-absolute dlsp-left-offset-1" title="Bookmark">
+                        <img src="./imgs/nba-fantasy.jpg" alt="nba-fantasy" class="card-img h-100">
+                    </div>
+                </div>
+            </div>
+            <div class="card border-0 dlsp-border-radius-1 dlsp-bg-gray-secondaty dlsp-no-overflow">
+                <div class="row no-gutters h-100">
+                    <div class="col-6">
+                        <div class="card-body d-flex flex-column justify-content-center mx-2 h-100">
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="dlsp-text-color-primary">
+                                    Multi Master
+                                </a>
+                            </h5>
+                            <div class="dlsp-text-size-p9 dlsp-text-color-secondary">mɃ 3000 Jackpot every
+                                weekend with mɃ 300 guaranteed payout</div>
+                        </div>
+                    </div>
+                    <div class="col-6 position-relative">
+                        <img src="./imgs/bookmark-star-fill.svg" alt="" width="24" height="24"
+                            class="position-absolute dlsp-left-offset-1" title="Bookmark">
+                        <img src="./imgs/multi-master.jpg" alt="multi-master" class="card-img h-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="game-providers" class="container my-4">
+        <h5 class="mb-3 dlsp-text-color-primary">Game Providers</h5>
+        <div class="row no-gutters mx-n2">
+            <div class="col-2 px-2">
+                <a href="#">
+                    <img src="./imgs/game-provider.jpg" alt="game-provider-1" class="w-100">
+                </a>
+            </div>
+            <div class="col-2 px-2">
+                <a href="#">
+                    <img src="./imgs/game-provider.jpg" alt="game-provider-2" class="w-100">
+                </a>
+            </div>
+            <div class="col-2 px-2">
+                <a href="#">
+                    <img src="./imgs/game-provider.jpg" alt="game-provider-3" class="w-100">
+                </a>
+            </div>
+            <div class="col-2 px-2">
+                <a href="#">
+                    <img src="./imgs/game-provider.jpg" alt="game-provider-4" class="w-100">
+                </a>
+            </div>
+            <div class="col-2 px-2">
+                <a href="#">
+                    <img src="./imgs/game-provider.jpg" alt="game-provider-5" class="w-100">
+                </a>
+            </div>
+            <div class="col-2 px-2">
+                <a href="#">
+                    <img src="./imgs/game-provider.jpg" alt="game-provider-6" class="w-100">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-footer" class="container border-top border-dark pt-4">
+        <div class="row dlsp-text-color-secondary">
+            <div class="col-2">
+                <a href="#">
+                    <img src="./imgs/footer-logo.jpg" alt="logo" class="mb-4" />
+                </a>
+                <div class="dlsp-text-size-p8">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus natus sequi eum esse ducimus
+                    voluptatum ea debitis rerum! Aperiam esse inventore iure consequuntur magnam! Quas pariatur error
+                    temporibus corrupti et!
+                </div>
+            </div>
+            <div class="col-7 dlsp-text-size-p9">
+                <div class="row">
+                    <div class="col dlsp-d-block-content">
+                        <a href="#" class="font-weight-bold mb-4 dlsp-text-color-primary">Sports</a>
+                        <a href="#">Promotions</a>
+                        <a href="#">In Play</a>
+                        <a href="#">Upcomming</a>
+                    </div>
+                    <div class="col dlsp-d-block-content">
+                        <a href="#" class="dlsp-text-color-primary font-weight-bold mb-4">Casino</a>
+                        <a href="#">Live Casino</a>
+                    </div>
+                    <div class="col dlsp-d-block-content">
+                        <a href="#" class="font-weight-bold mb-4 dlsp-text-color-primary">Support</a>
+                        <a href="#">Payment Options</a>
+                        <a href="#">Responsible Gambling</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">General Betting</a>
+                        <a href="#">Rules</a>
+                        <a href="#">Responsible Gambling Terms and Conditions</a>
+                    </div>
+                    <div class="col dlsp-d-block-content">
+                        <a href="#" class="font-weight-bold mb-4 dlsp-text-color-primary">About</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Terms and Conditions</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 font-weight-bold dlsp-text-size-p9 dlsp-text-color-primary">
+                <a href="#" class="font-weight-bold mb-4 d-block dlsp-text-color-primary">Follow us</a>
+                <a href="#" class="d-inline-block rounded-circle p-1 dlsp-bg-gray-tertiary">
+                    <img src="./imgs/social.png" alt="social-1" class="dlsp-social-icon">
+                </a>
+                <a href="#" class="d-inline-block rounded-circle p-1 dlsp-bg-gray-tertiary">
+                    <img src="./imgs/social.png" alt="social-2" class="dlsp-social-icon">
+                </a>
+                <a href="#" class="d-inline-block rounded-circle p-1 dlsp-bg-gray-tertiary">
+                    <img src="./imgs/social.png" alt="social-3" class="dlsp-social-icon">
+                </a>
+                <a href="#" class="d-inline-block rounded-circle p-1 dlsp-bg-gray-tertiary">
+                    <img src="./imgs/social.png" alt="social-4" class="dlsp-social-icon">
+                </a>
+                <a href="#" class="d-inline-block rounded-circle p-1 dlsp-bg-gray-tertiary">
+                    <img src="./imgs/social.png" alt="social-5" class="dlsp-social-icon">
+                </a>
+            </div>
+        </div>
+    </div>    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
